@@ -7,6 +7,10 @@
 </head>
 <body>
     <?php
+        include __DIR__.'/styles.php';
+        
+        echo "<h1>Exercício 9</h1>";
+        echo "<hr>"; 
          echo"<b>9)</b> Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste.
          Calcular e escrever o valor do novo salário.</br>";
  
@@ -14,8 +18,11 @@
          $percentual = 10/100;
  
          $reajuste = $salario * $percentual + $salario;
- 
-         echo $reajuste;
+
+         echo "<div class = resposta>";
+         echo "<b>Resposta: </b>O seu salário de R$".$salario." foi reajustado em 10% agora você passará a receber R$ ".$reajuste;
+         echo "</div>";
+         echo "<hr>";
         
     ?>
 </body>
