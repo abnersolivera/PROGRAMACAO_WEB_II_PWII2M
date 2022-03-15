@@ -27,6 +27,12 @@
                     echo "<hr>"; 
                 }
             }while($numero2 == 0);
+        }else{
+            $divisao = $numero1 / $numero2;
+            echo "<div class = resposta>";
+            echo "<b>Resposta: </b>O calculo da divisão de ".$numero1." / ".$numero2." = ".$divisao ;
+            echo "</div>";
+            echo "<hr>"; 
         }
     ?>
 </body>
